@@ -920,7 +920,7 @@ The peak signal frequency can be found with ``freqs[power.argmax()]``
     :scale: 60
     :align: right
 
-
+.
 Setting the Fourrier component above this frequency to zero and inverting
 the FFT with :func:`scipy.fftpack.ifft`, gives a filtered signal.
 
